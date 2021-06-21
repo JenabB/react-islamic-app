@@ -1,0 +1,104 @@
+{
+  "daftar": [
+    {
+      "name": "Adam As.",
+      "value": "adam"
+    },
+    {
+      "name": "Idris As.",
+      "value": "idris"
+    },
+    {
+      "name": "Nuh As.",
+      "value": "nuh"
+    },
+    {
+      "name": "Hud As.",
+      "value": "nuh"
+    },
+    {
+      "name": "Saleh As.",
+      "value": "saleh"
+    },
+    {
+      "name": "Ibrahim As.",
+      "value": "ibrahim"
+    },
+    {
+      "name": "Luth As.",
+      "value": "luth"
+    },
+    {
+      "name": "Ismail As.",
+      "value": "ismail"
+    },
+    {
+      "name": "Ishaq As.",
+      "value": "ishaq"
+    },
+    {
+      "name": "Yaqub As.",
+      "value": "yaqub"
+    },
+    {
+      "name": "Yusuf As.",
+      "value": "yusuf"
+    },
+    {
+      "name": "Ayyub As.",
+      "value": "ayyub"
+    },
+    {
+      "name": "Syu'aib As.",
+      "value": "syu'aib"
+    },
+    {
+      "name": "Musa As.",
+      "value": "musa"
+    },
+    {
+      "name": "Harun As.",
+      "value": "harun"
+    },
+    {
+      "name": "Zulkifli As.",
+      "value": "zulkifli"
+    },
+    {
+      "name": "Daud As.",
+      "value": "daud"
+    },
+    {
+      "name": "Sulaiman As.",
+      "value": "sulaiman"
+    },
+    {
+      "name": "Ilyas As.",
+      "value": "ilyas"
+    },
+    {
+      "name": "Ilyasa As.",
+      "value": "ilyasa"
+    },
+    {
+      "name": "Yunus As.",
+      "value": "yunus"
+    },
+    {
+      "name": "Zakaria As.",
+      "value": "zakaria"
+    },
+    {
+      "name": "Yahya As.",
+      "value": "yahya"
+    },
+    {
+      "name": "Isa As.",
+      "value": "isa"
+    },
+    {
+      "name": "Muhammad SAW.",
+      "value": "muhammad"
+    }
+  ]
+}
