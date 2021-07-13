@@ -1,0 +1,36 @@
+{
+  "hadis": [
+    {
+      "name": "Abu Daud",
+      "value": "abu-daud"
+    },
+    {
+      "name": "Ahmad",
+      "value": "ahmad"
+    },
+    {
+      "name": "Bukhari",
+      "value": "bukhari"
+    },
+    {
+      "name": "Darimi",
+      "value": "darimi"
+    },
+    {
+      "name": "Ibnu Majah",
+      "value": "ibnu-majah"
+    },
+    {
+      "name": "Nasai",
+      "value": "nasai"
+    },
+    {
+      "name": "Malik",
+      "value": "malik"
+    },
+    {
+      "name": "Muslim",
+      "value": "muslim"
+    }
+  ]
+}

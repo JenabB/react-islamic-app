@@ -1,5 +1,5 @@
 {
-  "daftar": [
+  "nabi": [
     {
       "name": "Adam As.",
       "value": "adam"
@@ -14,11 +14,11 @@
     },
     {
       "name": "Hud As.",
-      "value": "nuh"
+      "value": "hud"
     },
     {
-      "name": "Saleh As.",
-      "value": "saleh"
+      "name": "Sholeh As.",
+      "value": "sholeh"
     },
     {
       "name": "Ibrahim As.",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Syu'aib As.",
-      "value": "syu'aib"
+      "value": "syuaib"
     },
     {
       "name": "Musa As.",
@@ -61,8 +61,8 @@
       "value": "harun"
     },
     {
-      "name": "Zulkifli As.",
-      "value": "zulkifli"
+      "name": "Dzulkifli As.",
+      "value": "dzulkifli"
     },
     {
       "name": "Daud As.",
@@ -85,8 +85,8 @@
       "value": "yunus"
     },
     {
-      "name": "Zakaria As.",
-      "value": "zakaria"
+      "name": "Zakariya As.",
+      "value": "zakariya"
     },
     {
       "name": "Yahya As.",

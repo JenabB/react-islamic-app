@@ -1,5 +1,5 @@
 const CONFIG = {
-  KISAH_NABI: 'https://kisahnabi-api-zhirrr.vercel.app/api/searchnabi?q=',
+  BASE_URL: 'https://islamic-api-indonesia.herokuapp.com/api/data',
 };
 
 export default CONFIG;

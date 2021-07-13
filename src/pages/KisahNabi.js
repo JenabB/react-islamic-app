@@ -1,23 +1,23 @@
 import { useState, useEffect } from 'react';
 import { getKisahNabi } from '../data/endpoint';
 import Select from 'react-select';
-import DATA from '../data/DATA.json';
+import NABI from '../data/NABI.json';
 
 export default function KisahNabi() {
   const [query, setQuery] = useState('idris');
   const [kisah, setKisah] = useState([]);
 
-  const option = DATA.daftar.map((n) => ({ value: n.value, label: n.name }));
-  console.log(DATA.daftar);
+  const option = NABI.nabi.map((n) => ({ value: n.value, label: n.name }));
+
   const handleNabiChange = (e) => {
     setQuery(e.value.toLowerCase());
   };
+
   useEffect(() => {
     try {
       getKisahNabi(query)
         .then((data) => {
-          console.log(data.nabi);
-          setKisah(data.nabi);
+          setKisah(data.result.nabi);
         })
         .catch((error) => console.log(error));
     } catch (error) {
@@ -26,17 +26,40 @@ export default function KisahNabi() {
   }, [query]);
 
   return (
-    <div className="App">
-      <Select options={option} onChange={handleNabiChange} />
-      {kisah && (
+    <div className="pb-20">
+      <Select
+        options={option}
+        placeholder="cari nabi..."
+        onChange={handleNabiChange}
+      />
+      {kisah ? (
         <div>
-          <img src={kisah.image} alt={kisah.nama} className="w-full" />
-          <h1 className="text-center">{kisah.nama}</h1>
-          <h2>{kisah.lahir}</h2>
-          <h3>{kisah.umur}</h3>
-          <h2>{kisah.tempat}</h2>
-          <p>{kisah.kisah}</p>
+          <img
+            src={kisah.image}
+            alt={kisah.nama}
+            className="w-full object-cover"
+            style={{ height: '350px' }}
+          />
+          <h1 className="text-center my-3">{kisah.nama}</h1>
+          <div className="p-4">
+            <table className="text-center mx-auto">
+              <tr>
+                <th>Lahir</th>
+                <th>Umur</th>
+                <th>Tempat</th>
+              </tr>
+              <tr>
+                <td>{kisah.lahir}</td>
+                <td>{kisah.umur}</td>
+                <td>{kisah.tempat}</td>
+              </tr>
+            </table>
+
+            <p className="mt-4 text-justify">{kisah.kisah}</p>
+          </div>
         </div>
+      ) : (
+        <h1>Loading...</h1>
       )}
     </div>
   );
