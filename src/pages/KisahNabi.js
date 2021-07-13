@@ -40,7 +40,7 @@ export default function KisahNabi() {
             className="w-full object-cover"
             style={{ height: '350px' }}
           />
-          <h1 className="text-center my-3">{kisah.nama}</h1>
+          <h1 className="text-center mt-8 text-xl">{kisah.nabi}</h1>
           <div className="p-4">
             <table className="text-center mx-auto">
               <tr>
