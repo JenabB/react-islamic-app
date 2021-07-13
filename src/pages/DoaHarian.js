@@ -39,16 +39,18 @@ const DoaHarian = () => {
       <div className="bg-blue-700 font-bold text-center p-3 text-white mb-6">
         <h1>Doa Harian</h1>
       </div>
-      <div className="text-center">
-        <input
-          className="text-center bg-gray-200 rounded-lg"
-          type="text"
-          placeholder="cari doa"
-          value={query}
-          onChange={handleChange}
-        />
+      <div className="p-4">
+        <div className="text-center">
+          <input
+            className="text-center bg-gray-200 rounded-lg"
+            type="text"
+            placeholder="cari doa"
+            value={query}
+            onChange={handleChange}
+          />
+        </div>
+        {items}
       </div>
-      {items}
     </div>
   );
 };
